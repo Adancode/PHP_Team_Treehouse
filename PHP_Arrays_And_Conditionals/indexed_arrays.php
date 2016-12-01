@@ -12,6 +12,7 @@
      //var_dump($learn);
      //var_dump($learn); //explode($learn, "\n");
      //echo implode( "\n", $learn);
+     // array_pop removes the last element of an array
      $learn = array_values($learn);  // creates new array with sequentioal array keys (useful when we used unset and want the array to have consecutive keys again)
 ?>
 
